@@ -1,0 +1,14 @@
+title = "Cole Wilson"
+baseurl = "https://xyz.cwi.repl.co"
+seperator = "-"
+description = "I am a student developer who is interested in Linux, books, and full-stack web development, but mainly Python."
+
+[[collection]]
+name = "posts"
+scheme = "/{title}"
+[collection.defaults]
+a = "2"
+
+[[collection]]
+name = "pages"
+scheme = "/{permalink}"
